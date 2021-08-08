@@ -1,0 +1,35 @@
+<!--Declaring elements-->
+<!ELEMENT MusicStore (Store,Songs)>
+<!ELEMENT Store (Logo,StoreName,Address, TelephoneNumber,Website)>
+<!ELEMENT Songs (Song+)>
+<!ELEMENT Song (Image,SongName,Singer,Writers,SongLength,Genre,Album?, FeaturedArtist?,ReleaseYear,Director?,Producer,BackVocalist?,Awards?)>
+<!ELEMENT Awards (Award+)>
+
+<!--Declaring data type of element-->
+<!ELEMENT Logo (#PCDATA)>
+<!ELEMENT StoreName (#PCDATA)>
+<!ELEMENT Address (#PCDATA)>
+<!ELEMENT TelephoneNumber (#PCDATA)>
+<!ELEMENT Website (#PCDATA)>
+<!ELEMENT SongName (#PCDATA)>
+<!ELEMENT Singer (#PCDATA)>
+<!ELEMENT Writers (#PCDATA)>
+<!ELEMENT SongLength (#PCDATA)>
+<!ELEMENT Genre (#PCDATA)>
+<!ELEMENT Album (#PCDATA)>
+<!ELEMENT FeaturedArtist (#PCDATA)>
+<!ELEMENT ReleaseYear (#PCDATA)>
+<!ELEMENT Director (#PCDATA)>
+<!ELEMENT Producer (#PCDATA)>
+<!ELEMENT BackVocalist (#PCDATA)>
+<!ELEMENT Award (#PCDATA)>
+<!ELEMENT Image (#PCDATA)>
+
+<!--Declaring attributes-->
+<!ATTLIST StoreName storeID CDATA #REQUIRED>
+<!ATTLIST Song songNumber CDATA #REQUIRED>
+<!ATTLIST Image imageNumber CDATA #REQUIRED>
+<!ATTLIST SongName Language CDATA #REQUIRED>
+<!ATTLIST Singer Nationality (Nepalese | American | Australian | English ) #IMPLIED>
+<!ATTLIST MusicStore xmlns:xsi CDATA #REQUIRED>
+<!ATTLIST MusicStore xsi:noNamespaceSchemaLocation CDATA #REQUIRED>

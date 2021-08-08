@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml-stylesheet type="text/css" href="catalog_19033674.css"?> <!--Linking external CSS file to XML file-->
+<!DOCTYPE MusicStore SYSTEM "catalog_19033674.dtd"> <!--Linking external DTD file to XML file-->
+<MusicStore xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="catalog_19033674.xsd"> <!--Creating root element and linking external schema-->
+    
+    <Store> <!--Creating child element for storing store details-->
+        <Logo></Logo>
+        <StoreName storeID="S23456"> Music Mania </StoreName>
+        <Address> Chipledhunga, Pokhara</Address>
+        <TelephoneNumber>061534784</TelephoneNumber>
+        <Website>www.musicmania.com</Website>
+    </Store>
+    
+    <Songs> <!--Creating child element for storing song details-->
+        <Song songNumber = "1">
+            <Image imageNumber = "1"/> <!--stores image of the song-->
+            <SongName Language="English">You're Beautiful</SongName>
+            <Singer Nationality="English" >James Blunt</Singer>
+            <Writers> Amanda Ghost, Sacha Skarbet,James Blunt</Writers>
+            <SongLength>3:22 </SongLength>
+            <Genre>Pop  </Genre>
+            <ReleaseYear>2005 </ReleaseYear>
+            <Director> Brandon Smith </Director>
+            <Producer> Tom Rothrock</Producer>
+            <Awards>
+            <Award>MTV Video Music Award </Award>
+            <Award>MTV Australia Award for the Song of the Year</Award>
+            </Awards>
+        </Song> 
+
+        <Song songNumber = "2">
+            <Image imageNumber = "2"/>
+            <SongName Language ="English">Crush</SongName>
+            <Singer Nationality="American">David Archuleta </Singer>
+            <Writers>Jess Cates , David Hodges, Emanuel Kiriakou </Writers>
+            <SongLength> 3:33</SongLength>
+            <Genre> Pop </Genre>
+            <Album> David Archuleta</Album>
+            <ReleaseYear>2009 </ReleaseYear>
+            <Director> Declan Whitebloom</Director>
+            <Producer>Emanuel Kiriakou </Producer>
+            <Awards>
+            <Award> Teen Choice Award for Choice Music :Love Song</Award>
+            </Awards>
+        </Song>
+
+        <Song songNumber = "3">
+            <Image imageNumber= "3"/>
+            <SongName Language="English">Cheap Thrills</SongName>
+            <Singer Nationality="Australian"> Sia </Singer>
+            <Writers> Sia Furler , Greg Kurstin , Sean Paul Henriques</Writers>
+            <SongLength>3:44 </SongLength>
+            <Genre>Synthpop, dancehall  </Genre>
+            <Album>This is Acting </Album>
+            <FeaturedArtist> Sean Paul</FeaturedArtist>
+            <ReleaseYear> 2016</ReleaseYear>
+            <Director> Lior Molcho</Director>
+            <Producer>Greg Kurstin </Producer>
+            <Awards>
+            <Award> APPRA Music Awards of 2019</Award>
+            <Award>Grammy Award for Producer of the year</Award>
+            </Awards>
+        </Song>
+
+        <Song songNumber = "4">
+            <Image imageNumber = "4"/>
+            <SongName Language="English">Love the way you lie</SongName>
+            <Singer Nationality="American">Eminem</Singer>
+            <Writers>Marshall Mathers, Alexander Grant , Holly Hafermann</Writers>
+            <SongLength>4:23 </SongLength>
+            <Genre>Hip Hop  </Genre>
+            <Album>Recovery</Album>
+            <FeaturedArtist>Rihanna</FeaturedArtist>
+            <ReleaseYear> 2010</ReleaseYear>
+            <Director>Joseph Kahn</Director>
+            <Producer>Alex da Kid </Producer>
+            <Awards>
+            <Award>Poeple's Choice Award for Favorite Music Video</Award>
+            <Award>Soul Train Music Award for Rhythms And Bars</Award>
+            <Award>Billboard Music Award for Top Rap Song</Award>
+            </Awards>
+        </Song>
+
+         <Song songNumber = "5">
+            <Image imageNumber= "5"/>
+            <SongName Language="Nepali">Hookah Mero</SongName>
+            <Singer Nationality="Nepalese">Surendra Man Singh</Singer>
+            <Writers>Karma Band</Writers>
+            <SongLength>4:11 </SongLength>
+            <Genre>Pop </Genre>
+            <Album>Very best of Karma </Album>
+            <ReleaseYear> 2011</ReleaseYear>
+            <Producer>Karma Band </Producer>
+            <BackVocalist>Anil Sakya </BackVocalist>
+        </Song>
+
+         <Song songNumber = "6">
+            <Image imageNumber= "6"/>
+            <SongName Language="Nepali">Din</SongName>
+            <Singer Nationality="Nepalese"> Neran Shahi </Singer>
+            <Writers>Din</Writers>
+            <SongLength>4:51</SongLength>
+            <Genre>Rock</Genre>
+            <Album>Anuprastha </Album>
+            <ReleaseYear> 2009</ReleaseYear>
+            <Producer>Anuprastha Band</Producer>
+            <Awards>
+            <Award>Sprite Band Challenge</Award>
+            </Awards>
+        </Song>
+
+         <Song songNumber = "7">
+            <Image imageNumber= "7"/>
+            <SongName Language="English">Teddy Bear</SongName>
+            <Singer Nationality="American">Elvis Presley</Singer>
+            <Writers>Kal Mann, Bernie Lowe</Writers>
+            <SongLength>1:46 </SongLength>
+            <Genre>Rock and roll, rhythm and blues</Genre>
+            <Album>Loving You</Album>
+            <ReleaseYear>1957</ReleaseYear>
+            <Producer>Walter Scharf</Producer>
+            <BackVocalist>The Jordanaires </BackVocalist>
+        </Song>  
+
+         <Song songNumber = "8">
+            <Image imageNumber= "8"/>
+            <SongName Language="English">Let It Go</SongName>
+            <Singer Nationality="English">James Bay</Singer>
+            <Writers>James Bay, Paul Barry</Writers>
+            <SongLength>4:08 </SongLength>
+            <Genre>Indie rock, Soul</Genre>
+            <Album>Chaos and the Calm</Album>
+            <ReleaseYear> 2014</ReleaseYear>
+            <Director>Daniel Kragh-Jacobsen</Director>
+            <Producer>Greg Kurstin </Producer>
+        </Song>     
+      
+         <Song songNumber = "9">
+            <Image imageNumber= "9"/>
+            <SongName Language="English">Hey Soul Sister</SongName>
+            <Singer Nationality="American"> Patric Monahan </Singer>
+            <Writers> Patrick Monahan, Espen Lind, Amund Bjorklund</Writers>
+            <SongLength>3:44 </SongLength>
+            <Genre>Pop Rock </Genre>
+            <Album>Save Me, San Franscisco</Album>
+            <ReleaseYear> 2009</ReleaseYear>
+            <Director> Lior Molcho</Director>
+            <Producer>Espionage, Martin Terefe, Gregg Wattenberg</Producer>
+            <Awards>
+            <Award>Grammy Award for Best Pop Performance by a Duo</Award>
+            <Award>Billiboard Music Award for Top Rock Song</Award>
+            </Awards>
+        </Song>
+
+         <Song songNumber = "10">
+            <Image imageNumber= "10"/>
+            <SongName Language="American Spanish">Despacito</SongName>
+            <Singer Nationality="American">Luis Fonsi</Singer>
+            <Writers>Luis Rodriguez,Erika Ender,Ramon Ayala</Writers>
+            <SongLength>3:47 </SongLength>
+            <Genre>Reggaeton, Latin pop</Genre>
+            <Album>Vida</Album>
+            <FeaturedArtist>Daddy Yankee</FeaturedArtist>
+            <ReleaseYear> 2017</ReleaseYear>
+            <Director>Carlos Perez</Director>
+            <Producer>Mauricio Rengifo </Producer>
+            <Awards>
+            <Award>Latin Grammy Award for Record of the Year</Award>
+            <Award>Billiboard Music Award for Top Selling Song</Award>
+            <Award>American Music Award for Collaboration of the Year</Award>
+            </Awards>
+        </Song>
+
+         <Song songNumber = "11">
+            <Image imageNumber= "11"/>
+            <SongName Language="English">Roar</SongName>
+            <Singer Nationality="American"> Katy Perry</Singer>
+            <Writers>Katy Perry, Max Martin, Bonnie Mckee,Henry Walter</Writers>
+            <SongLength>3:42 </SongLength>
+            <Genre>Pop </Genre>
+            <Album>Prism</Album>
+            <ReleaseYear> 2013</ReleaseYear>
+            <Director>Grady Hall</Director>
+            <Producer>Dr Luke, Max Martin, Cirkut </Producer>
+            <Awards>
+            <Award>Song of the year</Award>
+            <Award>Best Pop Solo Performance</Award>
+            </Awards>
+        </Song>
+
+         <Song songNumber = "12">
+            <Image imageNumber= "12"/>
+            <SongName Language="English">Love Story</SongName>
+            <Singer Nationality="American">Taylor Swift </Singer>
+            <Writers>Taylor Swift</Writers>
+            <SongLength>3:57 </SongLength>
+            <Genre>Country pop </Genre>
+            <Album>Fearless</Album>
+            <ReleaseYear> 2008</ReleaseYear>
+            <Director>Trey Fanjoy </Director>
+            <Producer>Nathan Chapman, Taylor Swift</Producer>
+            <Awards>
+            <Award>Video of the year award.</Award>
+            </Awards>
+        </Song>
+
+         <Song songNumber = "13">
+            <Image imageNumber= "13"/>
+            <SongName Language="English">21 Guns</SongName>
+            <Singer Nationality="Australian">Billie Joe Armstrong</Singer>
+            <Writers>Billie Joe Armstrong, Mike Dirnt, Tre Cool</Writers>
+            <SongLength>5:21</SongLength>
+            <Genre> Alternative Rock</Genre>
+            <Album>21st Century Breakdown</Album>
+            <ReleaseYear> 2009</ReleaseYear>
+            <Director>Marc Webb</Director>
+            <Producer>Green day </Producer>
+            <BackVocalist>Mike Dirnt </BackVocalist>
+            <Awards>
+            <Award>MTV Video Music Award for Best Rock Video</Award>
+            <Award>MTV Video Music Award for Best Cinematography</Award>
+            </Awards>
+        </Song>
+
+         <Song songNumber = "14">
+            <Image imageNumber= "14"/>
+            <SongName Language="English">Toxicity</SongName>
+            <Singer Nationality="American">Serj Tankian</Singer>
+            <Writers> Daron Malakian, Shavo Odadjian, Serj Tankian</Writers>
+            <SongLength>3:39 </SongLength>
+            <Genre>Nu metal </Genre>
+            <Album>Toxicity </Album>
+            <ReleaseYear> 2002</ReleaseYear>
+            <Director>Marcos Siega and Shavo Odadjian</Director>
+            <Producer>Daron Malakian, Rick Rubin, Serj Tankian</Producer>
+            <BackVocalist> Shavo Odadjian</BackVocalist>
+        </Song>
+
+         <Song songNumber = "15">
+            <Image imageNumber= "15"/>
+            <SongName Language="English">Closer</SongName>
+            <Singer Nationality="American">The Chainsmokers </Singer>
+            <Writers>Andrew Taggart, Ashley Frangipane, Shaun Frank, Isaac SLade,Joe King</Writers>
+            <SongLength>4:04 </SongLength>
+            <Genre>Pop</Genre>
+            <FeaturedArtist>Halsey</FeaturedArtist>
+            <ReleaseYear> 2016</ReleaseYear>
+            <Director>Mike Nichols</Director>
+            <Producer>The Chainsmokers </Producer>
+            <Awards>
+            <Award>Billiboard Music Award for Top Dance/Electronic Song</Award>
+            <Award>Billiboard Music Award for Top Collaboration</Award>
+            <Award>MYX Music Award for Favorite International Video</Award>
+            </Awards>
+        </Song>
+    </Songs>
+</MusicStore>
